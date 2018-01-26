@@ -32,6 +32,9 @@ Good example projects are:
 
 `synapser` is available as a ready-built package for Microsoft Windows and Mac OSX. For Linux systems, it is available to install from source. It can be installed or upgraded using the standard `install.packages()` command, adding the [Sage Bionetworks R Archive Network (RAN)](https://sage-bionetworks.github.io/ran) to the repository list, e.g.:
 
+```{r}
+stop("Intential error to test SYNR-1186")
+```
 ```{r eval=F}
 install.packages("synapser", repos=c("https://sage-bionetworks.github.io/ran", "http://cran.fhcrc.org"))
 ```
